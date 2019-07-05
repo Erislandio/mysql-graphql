@@ -4,5 +4,9 @@
   "main": "index.js",
   "repository": "https://github.com/Erislandio/mysql-graphql.git",
   "author": "Erislândio Soares <erislandio.soares@acct.global>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "knex": "^0.18.3",
+    "mysql": "^2.17.1"
+  }
 }
