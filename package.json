@@ -1,0 +1,8 @@
+{
+  "name": "mysql-graphql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Erislandio/mysql-graphql.git",
+  "author": "Erislândio Soares <erislandio.soares@acct.global>",
+  "license": "MIT"
+}
