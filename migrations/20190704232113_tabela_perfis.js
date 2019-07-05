@@ -1,4 +1,4 @@
-exports.up = function(knex) {
+exports.up = function(knex, Promise) {
   return knex.schema
     .createTable("perfis", table => {
       table.increments("id").primary();
@@ -10,13 +10,13 @@ exports.up = function(knex) {
     })
     .then(function() {
       return knex("perfis").insert([
-        { nome: "Comum", rotulo: "Comum" },
-        { nome: "admin", rotulo: "administrador" },
-        { nome: "master", rotulo: "master" }
+        { nome: "comum", rotulo: "Comum" },
+        { nome: "admin", rotulo: "Administrador" },
+        { nome: "master", rotulo: "Master" }
       ]);
     });
 };
 
-exports.down = function(knex) {
+exports.down = function(knex, Promise) {
   return knex.schema.dropTable("perfis");
 };

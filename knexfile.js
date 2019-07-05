@@ -3,7 +3,7 @@
 module.exports = {
   client: "mysql",
   connection: {
-    database: "mysql_graphql",
+    database: "mysql_graphql2",
     user: "root",
     password: ""
   },
