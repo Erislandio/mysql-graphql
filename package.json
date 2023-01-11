@@ -6,7 +6,7 @@
   "author": "Erislândio Soares <erislandio.soares@acct.global>",
   "license": "MIT",
   "dependencies": {
-    "knex": "^0.18.3",
+    "knex": "^2.4.0",
     "mysql": "^2.17.1"
   }
 }
